@@ -43,6 +43,13 @@ function winner() {
         if(squares[3] == squares[5] && squares[5] == squares[7] && squares[3] != '') {
         end(3, 5, 7);
     }
+    else
+        if(squares[1] != '' && squares[2] != '' && squares[3] != '' && squares[4] != '' && squares[5] != '' && squares[6] != ''
+            && squares[7] != '' && squares[8] != '' && squares[9] != '') {
+            title.innerHTML = 'Draw';
+            setInterval(function() {title.innerHTML += '.'}, 1000);
+            setTimeout(function() {location.reload()}, 4000);
+        }
 }
 
 function game(id) {
