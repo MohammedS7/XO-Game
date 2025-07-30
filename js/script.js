@@ -4,8 +4,11 @@ function end(num1, num2, num3) {
     let title = document.querySelector('.title');
     title.innerHTML = `${squares[num1]} Winner`;
     document.getElementById('item' + num1).style.background = '#000';
+    document.getElementById('item' + num1).style.color = '#0f0';
     document.getElementById('item' + num2).style.background = '#000';
+    document.getElementById('item' + num2).style.color = '#0f0';
     document.getElementById('item' + num3).style.background = '#000';
+    document.getElementById('item' + num3).style.color = '#0f0';
 
     setInterval(function() {title.innerHTML += '.'}, 1000);
     setTimeout(function() {location.reload()}, 4000);
