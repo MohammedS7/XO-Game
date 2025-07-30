@@ -19,6 +19,7 @@ function winner() {
     for(i = 1; i < 10; i++) {
         squares[i] = document.getElementById('item' + i).innerHTML;
     }
+    let title = document.querySelector('.title');
     if(squares[1] == squares[2] && squares[2] == squares[3] && squares[1] != '') {
         end(1, 2, 3);
     }else
