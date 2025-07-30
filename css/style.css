@@ -1,0 +1,34 @@
+body {
+    font-family: system-ui;
+    background-color: aquamarine;
+}
+
+.game {
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    margin: 120px auto;
+    font-weight: 500;
+}
+.game .title {
+    background-color: #c92389;
+    padding: 10px 0;
+    margin: 5px 0;
+    font-size: 20px;
+}
+.game .title span {
+    color: #e6d433;
+}
+.game .square {
+    width: 90px;
+    height: 90px;
+    background-color: #c92389;
+    float: left;
+    margin: 5px;
+    font-size: 62px;
+    transition: 0.2s all ease;
+}
+.game .square:hover {
+    background-color: #222;
+    cursor: pointer;
+}
