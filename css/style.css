@@ -24,8 +24,11 @@ body {
     height: 90px;
     background-color: #c92389;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
-    font-size: 62px;
+    font-size: 60px;
     transition: 0.2s all ease;
 }
 .game .square:hover {
